@@ -1,7 +1,9 @@
 jQuery(document).ready(function () {
 //Open the menu
 jQuery("#hamburger").click(function () {
-jQuery('#content').css('min-height', jQuery(window).height());
+jQuery('#content').css('min-height', (jQuery(window).height()-100));
+jQuery('.appheight').css('min-height', (jQuery(window).height()-200));
+
 jQuery('nav').css('opacity', 1);
 //set the width of primary content container -> content should not scale while animating
 var contentWidth = jQuery('#content').width();

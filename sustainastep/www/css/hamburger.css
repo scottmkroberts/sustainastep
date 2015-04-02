@@ -30,6 +30,7 @@ z-index: 1;
 -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
 box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
 }
+
 /*
 using background color is important to cover the menu
 position absolute isset to cover the whole viewport
