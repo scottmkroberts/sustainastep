@@ -2,7 +2,8 @@ jQuery(document).ready(function () {
 //Open the menu
 jQuery("#hamburger").click(function () {
 jQuery('#content').css('min-height', (jQuery(window).height()-100));
-jQuery('.appheight').css('min-height', (jQuery(window).height()-200));
+jQuery('.appheight').css('min-height', (jQuery(window).height()-110));
+jQuery('.appheight').css('height', (jQuery(window).height()-110));
 
 jQuery('nav').css('opacity', 1);
 //set the width of primary content container -> content should not scale while animating
@@ -32,6 +33,9 @@ jQuery('#content').css('width', 'auto');
 jQuery('#contentLayer').css('display', 'none');
 jQuery('nav').css('opacity', 0);
 /*jQuery('#content').css('min-height', 'auto');*/
+jQuery('.appheight').css('min-height', (jQuery(window).height()-110));
+jQuery('.appheight').css('height', (jQuery(window).height()-110));
+
 }
 });
 });
@@ -47,6 +51,9 @@ jQuery('#content').css('width', 'auto');
 jQuery('#contentLayer').css('display', 'none');
 jQuery('nav').css('opacity', 0);
 //jQuery('#content').css('min-height', 'auto');
+jQuery('.appheight').css('min-height', (jQuery(window).height()-110));
+jQuery('.appheight').css('height', (jQuery(window).height()-110));
+
 }
 });
 });
